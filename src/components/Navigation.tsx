@@ -60,9 +60,18 @@ export function Navigation() {
           >
             Wisdom
           </Link>
-          <Link href="/#waitlist" className="pearl-button text-xs py-2 px-6">
-            Join Waitlist
-          </Link>
+          <a
+            href="https://app.innerpearl.ai/login"
+            className="font-body text-xs tracking-[0.2em] uppercase text-pearl-white/60 hover:text-pearl-gold transition-colors duration-300"
+          >
+            Sign In
+          </a>
+          <a
+            href="https://app.innerpearl.ai/signup"
+            className="pearl-button text-xs py-2 px-6"
+          >
+            Sign Up
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -121,13 +130,20 @@ export function Navigation() {
           >
             Wisdom
           </Link>
-          <Link
-            href="/#waitlist"
+          <a
+            href="https://app.innerpearl.ai/login"
+            onClick={() => setMobileOpen(false)}
+            className="font-display text-2xl font-light tracking-pearl text-pearl-white/70 hover:text-pearl-gold transition-colors"
+          >
+            Sign In
+          </a>
+          <a
+            href="https://app.innerpearl.ai/signup"
             onClick={() => setMobileOpen(false)}
             className="pearl-button mt-4"
           >
-            Join Waitlist
-          </Link>
+            Sign Up
+          </a>
         </div>
       </div>
     </header>

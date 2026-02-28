@@ -116,9 +116,9 @@ export default function HomePage() {
             className="animate-fade-in"
             style={{ animationDelay: "0.8s", animationFillMode: "both" }}
           >
-            <Link href="#waitlist" className="pearl-button-filled">
+            <a href="https://app.innerpearl.ai/signup" className="pearl-button-filled">
               Discover Your Cosmic Fingerprint
-            </Link>
+            </a>
           </div>
         </div>
 
