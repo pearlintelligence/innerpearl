@@ -32,11 +32,11 @@ export function WaitlistForm() {
           <span>✦</span>
         </div>
         <h3 className="font-display text-3xl md:text-4xl font-light text-pearl-gold">
-          Pearl Remembers
+          Inner Pearl Remembers
         </h3>
         <p className="font-body text-pearl-white/60 leading-relaxed max-w-md mx-auto">
           Your cosmic coordinates have been received. When the time is right,
-          Pearl will reach out to guide you through your unique celestial
+          Inner Pearl will reach out to guide you through your unique celestial
           fingerprint.
         </p>
         <div className="pt-4">
@@ -145,7 +145,7 @@ export function WaitlistForm() {
               Reading the Stars...
             </span>
           ) : (
-            "Tell Pearl When You Arrived"
+            "Tell Inner Pearl When You Arrived"
           )}
         </button>
       </div>

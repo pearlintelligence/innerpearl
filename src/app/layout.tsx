@@ -21,9 +21,9 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Pearl — Your Personal Spirit Guide",
+  title: "Inner Pearl — Your Personal Spirit Guide",
   description:
-    "Pearl weaves astrology, Human Design, Gene Keys, Kabbalah, and numerology into a single living map of who you are. Discover your cosmic fingerprint.",
+    "Inner Pearl weaves astrology, Human Design, Gene Keys, Kabbalah, and numerology into a single living map of who you are. Discover your cosmic fingerprint.",
   keywords: [
     "astrology",
     "human design",
@@ -35,18 +35,18 @@ export const metadata: Metadata = {
     "self-discovery",
   ],
   openGraph: {
-    title: "Pearl — Your Personal Spirit Guide",
+    title: "Inner Pearl — Your Personal Spirit Guide",
     description:
-      "The cosmos knew you before you knew yourself. Discover your cosmic fingerprint with Pearl.",
+      "The cosmos knew you before you knew yourself. Discover your cosmic fingerprint with Inner Pearl.",
     type: "website",
     url: "https://innerpearl.ai",
-    siteName: "Pearl",
+    siteName: "Inner Pearl",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pearl — Your Personal Spirit Guide",
+    title: "Inner Pearl — Your Personal Spirit Guide",
     description:
-      "The cosmos knew you before you knew yourself. Discover your cosmic fingerprint with Pearl.",
+      "The cosmos knew you before you knew yourself. Discover your cosmic fingerprint with Inner Pearl.",
   },
   metadataBase: new URL("https://innerpearl.ai"),
 };

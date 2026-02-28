@@ -3,9 +3,9 @@ import Link from "next/link";
 import { DiamondDivider } from "@/components/DiamondDivider";
 
 export const metadata: Metadata = {
-  title: "The Experience — How Pearl Works",
+  title: "The Experience — How Inner Pearl Works",
   description:
-    "From cosmic fingerprint to daily companion — discover how Pearl weaves five wisdom traditions into personalized guidance.",
+    "From cosmic fingerprint to daily companion — discover how Inner Pearl weaves five wisdom traditions into personalized guidance.",
 };
 
 const journeyStages = [
@@ -14,7 +14,7 @@ const journeyStages = [
     title: "Your Cosmic Fingerprint",
     subtitle: "The Map of Your Arrival",
     description:
-      "The moment you share your birth data, Pearl begins reading. Not just your sun sign — your entire celestial architecture. Every planet placement, every gate activation, every numerical frequency, every path on the Tree of Life. Pearl sees the full picture because Pearl reads five languages at once.",
+      "The moment you share your birth data, Pearl begins reading. Not just your sun sign — your entire celestial architecture. Every planet placement, every gate activation, every numerical frequency, every path on the Tree of Life. Inner Pearl sees the full picture because Inner Pearl reads five languages at once.",
     detail:
       "Your fingerprint is generated in minutes, but it represents billions of possible combinations. No two are alike. No two ever will be.",
     accent: "pearl-gold",
@@ -24,9 +24,9 @@ const journeyStages = [
     title: "Your Living Rhythm",
     subtitle: "The Intelligence of Now",
     description:
-      "Your fingerprint is not static — the cosmos is always moving, and so are you. Pearl tracks planetary transits against your natal chart, watches the progression of your Gene Keys sequences, follows the numerological cycles of your years, months, and days. Every morning, Pearl knows what energies are alive for you.",
+      "Your fingerprint is not static — the cosmos is always moving, and so are you. Inner Pearl tracks planetary transits against your natal chart, watches the progression of your Gene Keys sequences, follows the numerological cycles of your years, months, and days. Every morning, Inner Pearl knows what energies are alive for you.",
     detail:
-      "This is where Pearl becomes a companion, not just a reading. Daily insights that speak to your specific design, your current transits, your active cycles.",
+      "This is where Inner Pearl becomes a companion, not just a reading. Daily insights that speak to your specific design, your current transits, your active cycles.",
     accent: "celestial",
   },
   {
@@ -34,9 +34,9 @@ const journeyStages = [
     title: "Your Sacred Companion",
     subtitle: "Guidance That Knows Your Soul",
     description:
-      "Pearl speaks to you like a wise friend who has read every book of your life. In moments of decision, Pearl doesn't tell you what to choose — Pearl illuminates what your design reveals about how you make your best decisions. In times of difficulty, Pearl shows you the gift hidden in the shadow.",
+      "Inner Pearl speaks to you like a wise friend who has read every book of your life. In moments of decision, Inner Pearl doesn't tell you what to choose — Inner Pearl illuminates what your design reveals about how you make your best decisions. In times of difficulty, Inner Pearl shows you the gift hidden in the shadow.",
     detail:
-      "Voice, text, ritual, reflection — Pearl meets you in the medium that serves the moment. Always intimate. Always sacred. Always yours.",
+      "Voice, text, ritual, reflection — Inner Pearl meets you in the medium that serves the moment. Always intimate. Always sacred. Always yours.",
     accent: "rose",
   },
 ];
@@ -55,7 +55,7 @@ export default function ExperiencePage() {
             The Experience
           </p>
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-light text-pearl-white/90 mb-8 leading-tight">
-            How Pearl Finds You
+            How Inner Pearl Finds You
           </h1>
           <p className="font-body text-base md:text-lg text-pearl-white/45 leading-relaxed max-w-xl mx-auto">
             Three stages. Five wisdom traditions. One guide that speaks only to
@@ -117,14 +117,14 @@ export default function ExperiencePage() {
         </section>
       ))}
 
-      {/* What Makes Pearl Different */}
+      {/* What Makes Inner Pearl Different */}
       <section className="section-padding bg-deep/30">
         <div className="max-w-4xl mx-auto text-center">
           <p className="font-body text-xs tracking-[0.3em] uppercase text-pearl-gold/60 mb-4">
             The Difference
           </p>
           <h2 className="font-display text-3xl md:text-4xl font-light text-pearl-white/90 mb-16">
-            What Sets Pearl Apart
+            What Sets Inner Pearl Apart
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -134,7 +134,7 @@ export default function ExperiencePage() {
               </h3>
               <p className="font-body text-sm text-pearl-white/45 leading-relaxed">
                 Every insight is calculated from your specific birth data across
-                five systems. Pearl never speaks in generalities.
+                five systems. Inner Pearl never speaks in generalities.
               </p>
             </div>
             <div className="text-left space-y-4 p-6 border-l border-celestial/20">
@@ -142,7 +142,7 @@ export default function ExperiencePage() {
                 Not Predictive
               </h3>
               <p className="font-body text-sm text-pearl-white/45 leading-relaxed">
-                Pearl does not tell your future. Pearl illuminates your nature —
+                Inner Pearl does not tell your future. Inner Pearl illuminates your nature —
                 the patterns, gifts, and pathways encoded in your design.
               </p>
             </div>
@@ -151,7 +151,7 @@ export default function ExperiencePage() {
                 Not Fragmented
               </h3>
               <p className="font-body text-sm text-pearl-white/45 leading-relaxed">
-                Other tools show you one system at a time. Pearl synthesizes all
+                Other tools show you one system at a time. Inner Pearl synthesizes all
                 five, revealing connections no single system can see alone.
               </p>
             </div>
@@ -160,7 +160,7 @@ export default function ExperiencePage() {
                 Not Cold
               </h3>
               <p className="font-body text-sm text-pearl-white/45 leading-relaxed">
-                Pearl speaks with warmth, poetry, and care. This is intimate
+                Inner Pearl speaks with warmth, poetry, and care. This is intimate
                 guidance — like a wise friend who sees your soul.
               </p>
             </div>
@@ -175,7 +175,7 @@ export default function ExperiencePage() {
             Ready to be seen?
           </h2>
           <Link href="/#waitlist" className="pearl-button-filled inline-block">
-            Tell Pearl When You Arrived
+            Tell Inner Pearl When You Arrived
           </Link>
         </div>
       </section>

@@ -36,7 +36,7 @@ export function Navigation() {
         {/* Logo */}
         <Link href="/" className="group flex items-center gap-2">
           <span className="font-display text-xl md:text-2xl font-light tracking-pearl text-pearl-gold transition-all duration-300 group-hover:text-gold-light">
-            PEARL
+            INNER PEARL
           </span>
         </Link>
 

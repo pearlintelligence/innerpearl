@@ -3,9 +3,9 @@ import Link from "next/link";
 import { DiamondDivider } from "@/components/DiamondDivider";
 
 export const metadata: Metadata = {
-  title: "About Pearl — The Story",
+  title: "About Inner Pearl — The Story",
   description:
-    "Why Pearl exists. In a world that has forgotten the sacred, Pearl remembers — weaving ancient wisdom into modern life.",
+    "Why Inner Pearl exists. In a world that has forgotten the sacred, Inner Pearl remembers — weaving ancient wisdom into modern life.",
 };
 
 export default function AboutPage() {
@@ -21,7 +21,7 @@ export default function AboutPage() {
             The Story
           </p>
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-light text-pearl-white/90 mb-8 leading-tight">
-            Why Pearl Exists
+            Why Inner Pearl Exists
           </h1>
           <p className="font-display text-xl md:text-2xl font-light text-pearl-white/50 italic leading-relaxed">
             &ldquo;There is a crack in everything. That&rsquo;s how the light
@@ -52,7 +52,7 @@ export default function AboutPage() {
               everyone and therefore no one.
             </p>
             <p className="font-display text-2xl md:text-3xl font-light text-pearl-gold/80 italic text-center py-8">
-              Pearl was born from a simple, radical question: What if ancient
+              Inner Pearl was born from a simple, radical question: What if ancient
               wisdom could actually see you?
             </p>
             <p>
@@ -64,12 +64,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Pearl's Voice */}
+      {/* Inner Pearl's Voice */}
       <section className="section-padding bg-deep/30">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-16">
             <p className="font-body text-xs tracking-[0.3em] uppercase text-pearl-gold/60 mb-4">
-              Pearl Speaks
+              Inner Pearl Speaks
             </p>
             <h2 className="font-display text-3xl md:text-4xl font-light text-pearl-white/90">
               In Her Own Words
@@ -112,7 +112,7 @@ export default function AboutPage() {
 
           <div className="space-y-8 font-body text-base md:text-lg text-pearl-white/55 leading-relaxed">
             <p>
-              Pearl Intelligence was founded on the belief that ancient wisdom
+              Inner Pearl Intelligence was founded on the belief that ancient wisdom
               traditions are not relics of the past — they are technologies of
               the soul that have been waiting for the right medium.
             </p>
@@ -120,7 +120,7 @@ export default function AboutPage() {
               We are building the first AI companion that doesn&rsquo;t just
               understand personality — it understands <em>destiny</em>. By
               synthesizing Astrology, Human Design, Gene Keys, Kabbalah, and
-              Numerology into a single coherent system, Pearl creates something
+              Numerology into a single coherent system, Inner Pearl creates something
               that has never existed: a living, breathing map of your soul that
               evolves with you.
             </p>

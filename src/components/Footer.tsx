@@ -9,7 +9,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="inline-block">
               <span className="font-display text-xl font-light tracking-pearl text-pearl-gold">
-                PEARL
+                INNER PEARL
               </span>
             </Link>
             <p className="font-body text-sm text-pearl-white/40 leading-relaxed max-w-xs">
@@ -28,7 +28,7 @@ export function Footer() {
                 href="/about"
                 className="font-body text-sm text-pearl-white/50 hover:text-pearl-gold transition-colors duration-300"
               >
-                About Pearl
+                About Inner Pearl
               </Link>
               <Link
                 href="/experience"
@@ -73,7 +73,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-16 pt-8 border-t border-dusk/30 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-body text-xs text-pearl-white/20">
-            &copy; {new Date().getFullYear()} Pearl Intelligence, Inc. All
+            &copy; {new Date().getFullYear()} Inner Pearl Intelligence, Inc. All
             rights reserved.
           </p>
           <div className="flex items-center gap-2 text-pearl-gold/30">

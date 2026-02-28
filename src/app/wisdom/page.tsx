@@ -5,7 +5,7 @@ import { DiamondDivider } from "@/components/DiamondDivider";
 export const metadata: Metadata = {
   title: "The Wisdom — Five Ancient Systems",
   description:
-    "Astrology, Human Design, Gene Keys, Kabbalah, and Numerology — the five ancient traditions Pearl weaves into your cosmic fingerprint.",
+    "Astrology, Human Design, Gene Keys, Kabbalah, and Numerology — the five ancient traditions Inner Pearl weaves into your cosmic fingerprint.",
 };
 
 const systems = [
@@ -25,7 +25,7 @@ const systems = [
       "Transit tracking for real-time cosmic weather",
     ],
     pearl:
-      "Pearl reads your chart not as fate, but as an invitation — the cosmos suggesting, never demanding.",
+      "Inner Pearl reads your chart not as fate, but as an invitation — the cosmos suggesting, never demanding.",
   },
   {
     name: "Human Design",
@@ -43,7 +43,7 @@ const systems = [
       "Defined and undefined centers",
     ],
     pearl:
-      "Pearl integrates your Human Design with your astrology, revealing why certain transits affect you differently than others.",
+      "Inner Pearl integrates your Human Design with your astrology, revealing why certain transits affect you differently than others.",
   },
   {
     name: "Gene Keys",
@@ -57,11 +57,11 @@ const systems = [
     elements: [
       "Life's Work, Evolution, and Radiance spheres",
       "Shadow-to-Gift-to-Siddhi pathways",
-      "Venus and Pearl sequences",
+      "Venus and Inner Pearl sequences",
       "Programming partner dynamics",
     ],
     pearl:
-      "Pearl tracks your Gene Keys contemplation journey alongside your astrological transits, revealing when specific keys are most ready to unlock.",
+      "Inner Pearl tracks your Gene Keys contemplation journey alongside your astrological transits, revealing when specific keys are most ready to unlock.",
   },
   {
     name: "Kabbalah",
@@ -79,7 +79,7 @@ const systems = [
       "Tikkunim — soul-level healing work",
     ],
     pearl:
-      "Pearl maps your birth data onto the Tree of Life, revealing which Sefirot are most active in your design and where your soul's growth edge lives.",
+      "Inner Pearl maps your birth data onto the Tree of Life, revealing which Sefirot are most active in your design and where your soul's growth edge lives.",
   },
   {
     name: "Numerology",
@@ -97,7 +97,7 @@ const systems = [
       "Pinnacle and Challenge periods",
     ],
     pearl:
-      "Pearl synthesizes your numerological cycles with planetary transits and Gene Keys sequences, showing you the deeper pattern beneath all patterns.",
+      "Inner Pearl synthesizes your numerological cycles with planetary transits and Gene Keys sequences, showing you the deeper pattern beneath all patterns.",
   },
 ];
 
@@ -121,7 +121,7 @@ export default function WisdomPage() {
             <span className="pearl-gradient-text">One Truth.</span>
           </h1>
           <p className="font-body text-base md:text-lg text-pearl-white/45 leading-relaxed max-w-xl mx-auto">
-            Each system holds a piece of the mirror. Pearl holds them all — and
+            Each system holds a piece of the mirror. Inner Pearl holds them all — and
             for the first time, you see yourself whole.
           </p>
         </div>
@@ -185,7 +185,7 @@ export default function WisdomPage() {
                   ))}
                 </div>
 
-                {/* Pearl's perspective */}
+                {/* Inner Pearl's perspective */}
                 <div className="border-t border-pearl-white/[0.06] pt-6">
                   <p className="font-display text-base font-light text-pearl-white/40 italic leading-relaxed">
                     {system.pearl}
@@ -208,7 +208,7 @@ export default function WisdomPage() {
           </h2>
           <p className="font-body text-base md:text-lg text-pearl-white/50 leading-relaxed">
             Any one of these traditions can illuminate a corner of your being.
-            Together, they reveal the cathedral. Pearl is the first intelligence
+            Together, they reveal the cathedral. Inner Pearl is the first intelligence
             capable of reading all five simultaneously — finding the harmonies,
             the tensions, the hidden connections that no single system can see
             alone.
@@ -226,7 +226,7 @@ export default function WisdomPage() {
             Let the wisdom find you.
           </h2>
           <Link href="/#waitlist" className="pearl-button-filled inline-block">
-            Tell Pearl When You Arrived
+            Tell Inner Pearl When You Arrived
           </Link>
         </div>
       </section>

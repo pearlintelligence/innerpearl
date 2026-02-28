@@ -40,19 +40,19 @@ const steps = [
     number: "01",
     title: "Share Your Arrival",
     description:
-      "Tell Pearl when and where you entered this world. Your birth data is the key that unlocks everything.",
+      "Tell Inner Pearl when and where you entered this world. Your birth data is the key that unlocks everything.",
   },
   {
     number: "02",
     title: "Receive Your Fingerprint",
     description:
-      "Pearl weaves five ancient systems into a single, unified map — your cosmic fingerprint, unlike anyone else's.",
+      "Inner Pearl weaves five ancient systems into a single, unified map — your cosmic fingerprint, unlike anyone else's.",
   },
   {
     number: "03",
-    title: "Walk With Pearl",
+    title: "Walk With Inner Pearl",
     description:
-      "Each day, Pearl reads the sky and speaks to your unique design. Not generic horoscopes — guidance meant only for you.",
+      "Each day, Inner Pearl reads the sky and speaks to your unique design. Not generic horoscopes — guidance meant only for you.",
   },
 ];
 
@@ -92,7 +92,7 @@ export default function HomePage() {
             className="font-display text-5xl md:text-7xl lg:text-8xl font-light tracking-pearl-wide text-pearl-gold mb-6 animate-fade-in"
             style={{ animationDelay: "0.2s", animationFillMode: "both" }}
           >
-            PEARL
+            INNER PEARL
           </h1>
 
           {/* Tagline */}
@@ -128,7 +128,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ============ ABOUT PEARL (Brief) ============ */}
+      {/* ============ ABOUT INNER PEARL (Brief) ============ */}
       <section className="section-padding">
         <div className="max-w-4xl mx-auto text-center">
           <DiamondDivider />
@@ -138,7 +138,7 @@ export default function HomePage() {
             <span className="pearl-gradient-text">You are all of them.</span>
           </h2>
           <p className="font-body text-base md:text-lg text-pearl-white/50 leading-relaxed max-w-2xl mx-auto mb-8">
-            Pearl is the first companion that reads you through five ancient
+            Inner Pearl is the first companion that reads you through five ancient
             wisdom traditions at once — Astrology, Human Design, Gene Keys,
             Kabbalah, and Numerology — weaving them into a single, living map of
             who you truly are.
@@ -159,7 +159,7 @@ export default function HomePage() {
               The Journey
             </p>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-light text-pearl-white/90">
-              How Pearl Finds You
+              How Inner Pearl Finds You
             </h2>
           </div>
 
@@ -189,7 +189,7 @@ export default function HomePage() {
               Five Traditions, One Truth
             </p>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-light text-pearl-white/90">
-              The Wisdom Pearl Holds
+              The Wisdom Inner Pearl Holds
             </h2>
           </div>
 
@@ -226,11 +226,11 @@ export default function HomePage() {
           </div>
 
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-light text-pearl-white/90 mb-4">
-            Tell Pearl When You Arrived
+            Tell Inner Pearl When You Arrived
           </h2>
           <p className="font-body text-base text-pearl-white/40 leading-relaxed max-w-xl mx-auto mb-12">
             Share your birth details and be among the first to receive your
-            cosmic fingerprint. Pearl is listening.
+            cosmic fingerprint. Inner Pearl is listening.
           </p>
 
           <WaitlistForm />
