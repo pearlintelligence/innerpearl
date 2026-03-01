@@ -1,7 +1,60 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
+/* ────────────────────────────────────────────
+   Theme — migrated from tailwind.config.ts
+   ──────────────────────────────────────────── */
+@theme {
+  /* Colors */
+  --color-void: #06060E;
+  --color-deep: #0A0A16;
+  --color-midnight: #0E0E1F;
+  --color-dusk: #151530;
+  --color-pearl-gold: #C9A87C;
+  --color-gold-light: #E2CBA5;
+  --color-pearl-glow: #F5E6D0;
+  --color-pearl-white: #F0EDE8;
+  --color-celestial: #4A6FA5;
+  --color-teal: #5A8F8F;
+  --color-rose: #8F5A6F;
+
+  /* Fonts */
+  --font-display: var(--font-cormorant), "Cormorant Garamond", serif;
+  --font-body: var(--font-dm-sans), "DM Sans", sans-serif;
+
+  /* Letter spacing */
+  --tracking-pearl: 0.3em;
+  --tracking-pearl-wide: 0.5em;
+
+  /* Animations */
+  --animate-glow-pulse: glow-pulse 4s ease-in-out infinite;
+  --animate-fade-in: fade-in 1s ease-out forwards;
+  --animate-fade-in-up: fade-in-up 1s ease-out forwards;
+  --animate-float: float 6s ease-in-out infinite;
+}
+
+@keyframes glow-pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* ────────────────────────────────────────────
+   Base
+   ──────────────────────────────────────────── */
 @layer base {
   * {
     margin: 0;
@@ -42,6 +95,9 @@
   }
 }
 
+/* ────────────────────────────────────────────
+   Components
+   ──────────────────────────────────────────── */
 @layer components {
   .pearl-gradient-text {
     @apply bg-gradient-to-r from-pearl-gold via-gold-light to-pearl-gold bg-clip-text text-transparent;
@@ -95,6 +151,9 @@
   }
 }
 
+/* ────────────────────────────────────────────
+   Utilities
+   ──────────────────────────────────────────── */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
